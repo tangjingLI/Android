@@ -1,0 +1,2 @@
+rootProject.name = "homeeork3"
+include ':app'
