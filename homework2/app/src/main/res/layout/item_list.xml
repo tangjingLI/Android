@@ -7,11 +7,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
         android:layout_marginTop="33dp"
         android:textColor='@color/orange_200'
+        android:background="@color/orange_50"
         android:textSize="20sp"
         android:text="test"
         app:layout_constraintStart_toStartOf="parent"
