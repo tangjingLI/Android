@@ -7,17 +7,20 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 
+
 /**
- * @author ltj
- * @since  2021/7/14 16:03
+ * 用户注册页面
  */
 class SignUpActivity : AppCompatActivity() {
+    private var cn = DBConnection()
+
 
     companion object {
         private const val TAG = "SignUpActivity"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
@@ -71,10 +74,16 @@ class SignUpActivity : AppCompatActivity() {
                 } else {
                     val user = User(name, email, password, age, gender, address)
                     UserCenter.addUser(user)
+                    Thread(Runnable {
+                        cn.insert(name,email,password,age,gender,address)
+                    }).start()
+
                     Toast.makeText(this, R.string.signup_success, Toast.LENGTH_SHORT).show()
                     finish()
                 }
             }
         }
     }
+
+
 }
