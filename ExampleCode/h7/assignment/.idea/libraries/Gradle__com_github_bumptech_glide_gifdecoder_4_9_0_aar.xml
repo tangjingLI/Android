@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:gifdecoder:4.9.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eb344a9b5bed1d33ac59ed33f90ba06/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b4b75661e8cbbbeea43bea6c502e5ee/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eb344a9b5bed1d33ac59ed33f90ba06/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eb344a9b5bed1d33ac59ed33f90ba06/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6eb344a9b5bed1d33ac59ed33f90ba06/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b4b75661e8cbbbeea43bea6c502e5ee/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b4b75661e8cbbbeea43bea6c502e5ee/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b4b75661e8cbbbeea43bea6c502e5ee/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
